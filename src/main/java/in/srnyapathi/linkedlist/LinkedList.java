@@ -254,4 +254,25 @@ public class LinkedList {
         return slow;
 
     }
+
+    public Node findKthFromEnd(int n) {
+        Node slow = head;
+        Node fast = head;
+
+        for (int i = 0; i < n; i++) {
+            if (fast == null) {
+                return null;
+            }
+            fast = fast.next;
+        }
+
+        while (fast != null) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+
+        return slow;
+
+
+    }
 }

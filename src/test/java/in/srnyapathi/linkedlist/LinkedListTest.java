@@ -169,4 +169,20 @@ class LinkedListTest {
         var middlle = ll.findMiddleNode();
         assertEquals(4, middlle.getValue());
     }
+
+
+    @Test
+    void findKthElementFromLastTest() {
+        var ll = new LinkedList(1);
+        ll.append(2);
+        ll.append(3);
+        ll.append(4);
+        ll.append(5);
+        var result = ll.findKthFromEnd(2);
+        assertEquals(4, result.getValue());// Output: Node with value 4
+        result = ll.findKthFromEnd(5);
+        assertEquals(1, result.getValue());// Output: Node with value 4
+
+
+    }
 }
