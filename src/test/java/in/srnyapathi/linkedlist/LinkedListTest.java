@@ -127,7 +127,7 @@ class LinkedListTest {
     }
 
     @Test
-     void testReverse() {
+    void testReverse() {
         linkedList.append(20);
         linkedList.append(30);
         linkedList.Reverse();
@@ -135,5 +135,38 @@ class LinkedListTest {
         assertEquals(30, linkedList.get(0).getValue());
         assertEquals(20, linkedList.get(1).getValue());
         assertEquals(10, linkedList.get(2).getValue());
+    }
+
+    @Test
+    void evenNumberOfNodesFindMiddle() {
+        var ll = new LinkedList(1);
+        ll.append(2);
+        ll.append(3);
+        ll.append(4);
+        var middlle = ll.findMiddleNode();
+        assertEquals(3, middlle.getValue());
+    }
+
+    @Test
+    void evenOddOfNodesFindMiddle() {
+        var ll = new LinkedList(1);
+        ll.append(2);
+        ll.append(3);
+        ll.append(4);
+        ll.append(5);
+        var middlle = ll.findMiddleNode();
+        assertEquals(3, middlle.getValue());
+    }
+
+    @Test
+    void evenOddOfSixFindMiddle() {
+        var ll = new LinkedList(1);
+        ll.append(2);
+        ll.append(3);
+        ll.append(4);
+        ll.append(5);
+        ll.append(6);
+        var middlle = ll.findMiddleNode();
+        assertEquals(4, middlle.getValue());
     }
 }
