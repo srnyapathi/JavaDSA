@@ -4,6 +4,9 @@ package in.srnyapathi.linkedlist;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.HashSet;
+import java.util.Set;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class LinkedListTest {
@@ -183,6 +186,17 @@ class LinkedListTest {
         result = ll.findKthFromEnd(5);
         assertEquals(1, result.getValue());// Output: Node with value 4
 
+    }
 
+    void testRemoveDuplicates(){
+        var ll = new LinkedList(1);
+        ll.append(2);
+        ll.append(3);
+        ll.append(4);
+        ll.append(5);
+        var result = ll.findKthFromEnd(2);
+        assertEquals(4, result.getValue());// Output: Node with value 4
+        result = ll.findKthFromEnd(5);
+        assertEquals(1, result.getValue());// Output: Node with value 4
     }
 }

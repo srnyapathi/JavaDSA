@@ -4,17 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18d82d95-f6ae-4fd4-b4a4-7c743966047c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/in/srnyapathi/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/in/srnyapathi/linkedlist/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/in/srnyapathi/linkedlist/LinkedListTest.java" afterDir="false" />
+    <list default="true" id="18d82d95-f6ae-4fd4-b4a4-7c743966047c" name="Changes" comment="Finding kth element from the last">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documents/reversll.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/in/srnyapathi/lclinkedlist/AddTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/in/srnyapathi/lclinkedlist/ConvertBinaryNumberInALinkedListToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/in/srnyapathi/lclinkedlist/LinkedListPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/in/srnyapathi/lclinkedlist/LinkedListReversalNonRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/in/srnyapathi/lclinkedlist/LinkedListReversalRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/in/srnyapathi/lclinkedlist/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/in/srnyapathi/lclinkedlist/AddTwoNumbersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/in/srnyapathi/lclinkedlist/ConvertBinaryNumberInALinkedListToIntegerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/in/srnyapathi/lclinkedlist/LinkedListPalindromeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/in/srnyapathi/lclinkedlist/LinkedListReversalNonRecursiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/in/srnyapathi/lclinkedlist/LinkedListReversalRecursionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/srnyapathi/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/srnyapathi/linkedlist/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/in/srnyapathi/linkedlist/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/in/srnyapathi/linkedlist/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,31 +38,39 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2nK85u4MyIRLCckVsrGgnirkwsF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "onboarding.tips.debug.path": "C:/Projects/JavaDsa/src/main/java/in/srnyapathi/Main.java",
-    "project.structure.last.edited": "Global Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Projects/JavaDsa/src/main/java/in/srnyapathi/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\JavaDsa" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="in.srnyapathi.lclinkedlist" />
       <recent name="in.srnyapathi.linkedlist" />
     </key>
   </component>
@@ -66,7 +80,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest">
+  <component name="RunManager" selected="JUnit.LinkedListPalindromeTest">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -97,32 +111,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListPalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaDsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.srnyapathi.linkedlist.*" />
+          <option name="PATTERN" value="in.srnyapathi.lclinkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="in.srnyapathi.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="in.srnyapathi.linkedlist.LinkedListTest" />
+      <option name="PACKAGE_NAME" value="in.srnyapathi.lclinkedlist" />
+      <option name="MAIN_CLASS_NAME" value="in.srnyapathi.lclinkedlist.LinkedListPalindromeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.testInsertValidIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListPalindromeTest.edgeCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaDsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.srnyapathi.linkedlist.*" />
+          <option name="PATTERN" value="in.srnyapathi.lclinkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="in.srnyapathi.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="in.srnyapathi.linkedlist.LinkedListTest" />
-      <option name="METHOD_NAME" value="testInsertValidIndex" />
+      <option name="PACKAGE_NAME" value="in.srnyapathi.lclinkedlist" />
+      <option name="MAIN_CLASS_NAME" value="in.srnyapathi.lclinkedlist.LinkedListPalindromeTest" />
+      <option name="METHOD_NAME" value="edgeCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListPalindromeTest.edgeCase2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaDsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.srnyapathi.lclinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="in.srnyapathi.lclinkedlist" />
+      <option name="MAIN_CLASS_NAME" value="in.srnyapathi.lclinkedlist.LinkedListPalindromeTest" />
+      <option name="METHOD_NAME" value="edgeCase2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListPalindromeTest.edgeCase3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaDsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.srnyapathi.lclinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="in.srnyapathi.lclinkedlist" />
+      <option name="MAIN_CLASS_NAME" value="in.srnyapathi.lclinkedlist.LinkedListPalindromeTest" />
+      <option name="METHOD_NAME" value="edgeCase3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListPalindromeTest.edgeCase5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaDsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.srnyapathi.lclinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="in.srnyapathi.lclinkedlist" />
+      <option name="MAIN_CLASS_NAME" value="in.srnyapathi.lclinkedlist.LinkedListPalindromeTest" />
+      <option name="METHOD_NAME" value="edgeCase5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,8 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LinkedListTest" />
-        <item itemvalue="JUnit.LinkedListTest.testInsertValidIndex" />
+        <item itemvalue="JUnit.LinkedListPalindromeTest" />
+        <item itemvalue="JUnit.LinkedListPalindromeTest.edgeCase5" />
+        <item itemvalue="JUnit.LinkedListPalindromeTest.edgeCase3" />
+        <item itemvalue="JUnit.LinkedListPalindromeTest.edgeCase2" />
+        <item itemvalue="JUnit.LinkedListPalindromeTest.edgeCase" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +209,87 @@
       <option name="presentableId" value="Default" />
       <updated>1728710230069</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding initial commit">
+      <option name="closed" value="true" />
+      <created>1728755668484</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728755668484</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Finding middle element in a linkedlist">
+      <option name="closed" value="true" />
+      <created>1728919750344</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728919750344</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Finding kth element from the last">
+      <option name="closed" value="true" />
+      <created>1728933455927</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728933455927</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="feature/findkthElement" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="feature/findMiddle" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding initial commit" />
+    <MESSAGE value="Finding middle element in a linkedlist" />
+    <MESSAGE value="Finding kth element from the last" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finding kth element from the last" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -153,6 +298,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/in/srnyapathi/Main.java</url>
           <line>7</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/in/srnyapathi/lclinkedlist/AddTwoNumbers.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/in/srnyapathi/lclinkedlist/AddTwoNumbers.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/in/srnyapathi/lclinkedlist/LinkedListPalindrome.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

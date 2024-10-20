@@ -3,6 +3,9 @@ package in.srnyapathi.linkedlist;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * This class implements a singly linked list that provides various operations
  * like appending, prepending, removing nodes, and reversing the list.
@@ -272,6 +275,21 @@ public class LinkedList {
         }
 
         return slow;
+
+
+    }
+
+    public void removeDuplicates() {
+        var values = new HashSet();
+        Node temp = head;
+
+        while (temp.next != null) {
+            if (!values.contains(temp.value)) {
+                temp = temp.next;
+            } else {
+                temp = temp.next.next;
+            }
+        }
 
 
     }
